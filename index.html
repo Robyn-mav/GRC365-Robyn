@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 20px
+		}
+		.grid div {
+			padding: 20px;
+			background: lightgray
+		} .form div { 
+			margin: 0 auto;
+			background: lightyellow;
+			border: 1px solid dimgray;
+			border-radius: 6px;
+			box-shadow: 2px 3px 6px darkgray;
+		}
+	</style>
+<meta charset="utf-8">
+<title>grid</title>
+</head>
+
+<body>
+	<div class="grid">
+		<div> <img src="images/CoverCircus.jpg"></div>
+		<div> <img src="images/CoverVenus.jpg"></div>
+		<div> <img src="images/CoverPaint.jpg"></div>
+		<div> <img src="images/Covertemp.jpg"></div>
+		<div> <img src="images/CoverLighthouse.jpg"></div>
+		<div> <img src="images/CoverTea.jpg"></div>
+	</div>
+	<div class="form">
+<form>
+	<label for="fname">First Name:</label><br>
+	<input type="text" id="fname" name="fname"><br>
+	<label for="lname">Last Name:</label><br>
+	<input type="text" id="lname" name="lname"><br>
+</form>
+	<p>Commison reachout inqury:</p>
+	<form>
+		<input type="radio" id="html" name="fav_language" value="HTML">
+		<label for="html">Would like to commision</label><br>
+		<input type="radio" id="css" name="fav_language" value="CSS">
+		<label for="css">Might like to commision</label><br>
+		<input type="radio" id="java" name="fav_language" value="JAVA">
+		<label for="java">Would not like to commision</label><br>
+		<input type="submit" value="submit">
+	</form>
+	</div>
+</body>
+</html>
